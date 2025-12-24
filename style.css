@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background: #0f0f14;
+  color: #eaeaf0;
+  line-height: 1.8;
+}
+
+.hero {
+  height: 70vh;
+  background: url("hero.jpg") center / cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+}
+
+.intro {
+  margin-bottom: 4rem;
+  font-size: 1.05rem;
+}
+
+.interview {
+  margin-bottom: 4rem;
+}
+
+.talk {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.talk img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.bubble {
+  background: #1c1c26;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  max-width: 75%;
+}
+
+.talk.aya .bubble {
+  background: #232332;
+}
+
+.image-block {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.image-block img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.caption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.profile {
+  margin-top: 6rem;
+}
+
+.profile h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.profile-card {
+  background: #1c1c26;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
